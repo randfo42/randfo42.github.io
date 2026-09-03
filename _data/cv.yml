@@ -1,189 +1,74 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: 김태성
+  label: AI Engineer
+  email: randfo42@gmail.com
+  location: ""
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: 모호한 문제를 측정 가능한 ML 문제로 정의하고, 모델 실험부터 MLOps 구축까지 경험이 있는 AI Engineer입니다.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: 아주대학교 대학원 (Ajou University)
+        area: 인공지능학과
+        studyType: 석사
+        start_date: 2020-02
+        end_date: 2024-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - 학점 4.19/4.5
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: 아주대학교 (Ajou University)
+        area: 심리학과 / 소프트웨어 및 컴퓨터공학 (복수전공)
+        studyType: 학사
+        start_date: 2016-03
+        end_date: 2020-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - 학점 3.76/4.5
+          - 심리학과 전공평점 3.81/4.5
+          - 소프트웨어 및 컴퓨터공학 전공평점 3.99/4.5
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: 틸다
+        position: AI Engineer
+        start_date: 2025-04
+        end_date: 2026-07
+        summary: 3D Bin Packing 최적화, MLOps 인프라 구축, 원자재 뉴스 분석 등 다양한 프로젝트를 수행했습니다.
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - "Diffusion 기반 3D Bin Packing 최적화: DiT 구조와 Rectified Flow를 적용해 평균 용적률을 76.2%에서 92.1%로 향상"
+          - "MLOps 인프라 구축: ModelMesh 기반 동적 모델 서빙과 Queue Proxy 재시도 로직으로 노드 장애 시 예측 요청 유실을 2건에서 0건으로 개선"
+          - "원자재 가격 뉴스 리포트 자동화: 사건-가설 기반 리포트 생성으로 고객사가 파악한 가격 상승 원인 11건을 모두 리포트에서 확인"
+          - "원자재 관련 뉴스 검색어 추출: ReAct 기반 Multi-Turn Agent로 검색 쿼리를 생성해 대상 기사 43~88% 검색, 키워드 포괄률 100% 달성"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: 최적의 추천 값을 제안하는 자동화된 Prescriptive AI (부스트캠프 AI Tech 7기, 6인)
+        start_date: 2024-08
+        end_date: 2025-02
+        summary: Tabular Data에서 목표값 Y를 달성하기 위한 입력값 X의 탐색을 자동화했습니다. X로부터 Y를 예측하는 Surrogate Model과 유전 알고리즘 기반 Search Model을 결합하고, 탐색 결과를 정규화하는 평가 지표를 설계했습니다.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Hand Bone Image Segmentation (부스트캠프 AI Tech 7기, 6인, 팀장)
+        start_date: 2024-08
+        end_date: 2025-02
+        summary: X-Ray 이미지에서 손뼈 영역을 클래스별로 분류하는 Multi-Label Segmentation 프로젝트입니다. 이미지를 Crop 단위로 학습해 4개 클래스의 평균 Dice Score를 0.66%p 향상했습니다.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: 재활용 품목 분류를 위한 Object Detection (부스트캠프 AI Tech 7기, 6인, 팀장)
+        start_date: 2024-08
+        end_date: 2025-02
+        summary: 재활용 이미지에서 품목의 위치와 종류를 탐지하는 프로젝트입니다. Detectron2에 Contrastive Loss를 적용해 동일 클래스 내 형태 차이에도 일관된 특징을 학습하도록 개선, Baseline 대비 mAP50을 3.3%p 향상했습니다.
+
+      - name: 로드뷰를 활용한 산책로 찾기 (개인 프로젝트)
+        start_date: 2026-08
+        end_date: 2026-08
+        summary: GTX 1660 6GB 환경에서 vLLM으로 Gemma4 E2B를 서빙하며 VLM 모델의 병목을 파악해 처리량을 2.85배 향상했습니다. PLE embedding table을 CPU 메모리로 옮기고 UVA view를 적용했으며, 이미지 토큰 크기를 줄여 precision을 94.4%에서 92.7%로 낮추는 대신 처리량을 높였습니다.
+
+    Publications:
+      - title: Regularization Using Noise Samples Identified by the Feature Norm for Face Recognition
+        authors:
+          - Taeseong Gim
+          - Kyung-Ah Sohn
+        publisher: IEEE Access
+        releaseDate: 2024
+        url: https://ieeexplore.ieee.org/document/10662963/
+        summary: 얼굴인식 데이터셋에서 클래스별 샘플 수가 많을수록 평균 Feature Norm이 커지는 현상을 발견하고, Feature Norm은 높지만 모델이 제대로 구별하지 못하는 샘플을 노이즈 후보로 정의했습니다. 이 샘플을 임베딩 공간에서 분리하는 정규화 항을 추가해 TinyFace Rank-1 성능을 1.1%, SurvFace FAR 0.01 기준 TPR을 3% 향상시켰습니다.
+
+    Languages:
+      - name: 영어
+        summary: OPIc IH

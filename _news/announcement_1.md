@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-02-22 00:00:00+0900
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+아주대학교 대학원 인공지능학과 석사 졸업.

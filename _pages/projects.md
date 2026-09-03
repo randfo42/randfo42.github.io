@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: 프로젝트
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: MLOps, Diffusion 기반 최적화, LLM/VLM 서빙 등 실무 및 개인 프로젝트 모음입니다.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [경력, 개인 프로젝트, 부스트캠프]
 horizontal: false
 ---
 
