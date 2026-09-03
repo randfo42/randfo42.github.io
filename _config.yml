@@ -15,6 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: 김태성, AI Engineer, Machine Learning, MLOps, Diffusion, LLM, 포트폴리오 # add your own keywords or leave empty
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
+timezone: Asia/Seoul # build in KST so news dates do not shift on UTC CI runners
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://randfo42.github.io # the base hostname & protocol for your site
