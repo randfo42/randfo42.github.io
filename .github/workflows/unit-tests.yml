@@ -74,14 +74,18 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
-      - name: Run comments integration test 🧪
-        run: bash test/integration_comments.sh
+      # 아래 두 테스트는 al-folio 데모 포스트(_posts/2022-12-10-giscus-comments.md,
+      # 2018-12-22-distill.md)가 빌드된 HTML을 grep 한다. 개인 사이트로 바꾸면서
+      # 블로그와 데모 포스트를 지웠기 때문에 항상 실패한다. 테스트 스크립트는
+      # test/ 에 그대로 두고 실행만 막아 둔다.
+      # - name: Run comments integration test 🧪
+      #   run: bash test/integration_comments.sh
 
       - name: Run plugin toggle integration test 🔌
         run: bash test/integration_plugin_toggles.sh
 
-      - name: Run distill integration test 📄
-        run: bash test/integration_distill.sh
+      # - name: Run distill integration test 📄
+      #   run: bash test/integration_distill.sh
 
       - name: Run bootstrap compatibility integration test 🧩
         run: bash test/integration_bootstrap_compat.sh
