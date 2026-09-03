@@ -1,0 +1,63 @@
+---
+# 레이아웃을 지정하지 않아 테마의 navbar/footer 없이 이 문서만 그대로 출력된다.
+# (스타터는 _layouts 를 소유할 수 없으므로 레이아웃 파일을 만들지 않는다.)
+permalink: /portfolio/
+title: Portfolio
+nav: true
+nav_order: 6
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | 김태성</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #525659; /* 브라우저 PDF 뷰어 기본 배경과 맞춘다 */
+      }
+
+      object {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      /* 모바일 브라우저는 object 안의 PDF를 인라인 렌더하지 않는다 */
+      .fallback {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+        padding: 2rem;
+        box-sizing: border-box;
+        color: #fff;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        text-align: center;
+      }
+
+      .fallback a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <object data="{{ '/assets/pdf/portfolio.pdf' | relative_url }}" type="application/pdf">
+      <p class="fallback">
+        <span>
+          이 브라우저에서는 PDF를 페이지 안에 표시할 수 없습니다.<br />
+          <a href="{{ '/assets/pdf/portfolio.pdf' | relative_url }}">포트폴리오 PDF 열기</a>
+        </span>
+      </p>
+    </object>
+  </body>
+</html>
